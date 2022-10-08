@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, span {
     line-height: 1.25;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 36px;
 }
@@ -73,7 +77,6 @@ nav {
 
 .nav__link--anchor {
     margin: 0 12px;
-    text-decoration: none;
     color: #242424;
     font-weight: 700;
 }
@@ -148,7 +151,6 @@ nav {
 .about-me__link {
     font-size: 20px;
     color: #242424;
-    text-decoration: none;
     padding: 0 16px;
 }
 
@@ -307,5 +309,39 @@ nav {
 .project__description--link {
     font-size: 20px;
     margin-right: 16px;
-    text-decoration: none;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #242424;
+}
+
+.footer__logo--img {
+    width: 70px;
+    height: 70px;
+}
+
+.footer__logo {
+    margin-bottom: 24px;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__social--link {
+    color: #fff;
 }
